@@ -1,0 +1,43 @@
+.global {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.bgWrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.one {
+  /* background-image: url("../public/home.jpg");
+  object-position: cover; */
+  background: rgb(100, 79, 79);
+  position: relative;
+}
+.two {
+  background: rgb(211, 79, 79);
+}
+.three {
+  background: rgb(67, 91, 88);
+}
+.four {
+  background: rgb(36, 164, 138);
+}
