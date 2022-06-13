@@ -1,5 +1,5 @@
 import Image from "next/image";
-import home from "./assets/home.jpg";
+import home from "../assets/home.jpg";
 
 const AboutUs = () => {
   return (

@@ -5,10 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        black: "#000107",
-        slate: "#E3F1EF"
-      }
+      colors: {}
     }
   },
   plugins: []

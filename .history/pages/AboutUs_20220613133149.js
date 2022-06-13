@@ -1,5 +1,4 @@
-import Image from "next/image";
-import home from "./assets/home.jpg";
+import React from "react";
 
 const AboutUs = () => {
   return (

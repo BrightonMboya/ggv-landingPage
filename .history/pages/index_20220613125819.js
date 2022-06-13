@@ -8,7 +8,12 @@ const index = () => {
   return (
     <React.Fragment>
       <div className={`${styles.global} ${styles.container}`}>
-        <section className={`${styles.section}`}>
+        <section
+          className={`${styles.section}`}
+          style={{
+            backgroundImage: "url(" + `${require("./assets/home.jpg")}` + ")"
+          }}
+        >
           <HomePage />
         </section>
         <section className={`${styles.section} ${styles.two}`}>

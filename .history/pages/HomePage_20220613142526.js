@@ -8,15 +8,16 @@ const HomePage = () => {
   return (
     <div>
       <div className={styles.bgWrap}>
+        {/* <Image src={home} layout="responsive" objectFit="cover" quality={100} /> */}
         <Background />
         <Image src={logo} layout="fixed" quality={100} objectFit="contain" />
         <h3 className="text-black text-3xl">Hello Worled</h3>
       </div>
 
-      {/* <div>
+      <div>
         <Image src={logo} layout="fixed" quality={100} objectFit="contain" />
         <h3 className="text-black text-3xl">Hello Worled</h3>
-      </div> */}
+      </div>
     </div>
   );
 };
