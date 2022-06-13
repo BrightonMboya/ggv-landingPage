@@ -1,21 +1,21 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import HomePage from "./HomePage";
-import AboutUs from "./AboutUs";
-import Contactus from "./Contactus";
 
 const index = () => {
   return (
     <React.Fragment>
       <div className={`${styles.global} ${styles.container}`}>
         <section className={`${styles.section} ${styles.one}`}>
-          <HomePage />
+          <h1>First Section</h1>
         </section>
         <section className={`${styles.section} ${styles.two}`}>
-          <AboutUs />
+          <h1>second Section</h1>
         </section>
         <section className={`${styles.section} ${styles.three}`}>
-          <Contactus />
+          <h1>Third Section</h1>
+        </section>
+        <section className={`${styles.section} ${styles.four}`}>
+          <h1>Fourth Section</h1>
         </section>
       </div>
     </React.Fragment>

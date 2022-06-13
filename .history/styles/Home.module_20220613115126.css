@@ -9,14 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  scroll-snap-align: start;
 }
 
-.container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
 .one {
   background: rgb(36, 164, 138);
 }
@@ -26,6 +20,6 @@
 .three {
   background: rgb(67, 91, 88);
 }
-.four {
+.one {
   background: rgb(36, 164, 138);
 }
