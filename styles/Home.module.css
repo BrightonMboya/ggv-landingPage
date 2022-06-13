@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 .section {
   height: 100vh;
   display: flex;
@@ -17,15 +18,26 @@
   overflow-y: scroll;
   height: 100vh;
 }
+
 .one {
   background: rgb(36, 164, 138);
 }
+
 .two {
-  background: rgb(211, 79, 79);
+  background: linear-gradient(to bottom right, rgba(0, 1, 7, 0.7), rgb(78, 77, 77, 0.7)), url(../public/geran-de-klerk-9yvADFNcXOc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 45px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
 }
+
 .three {
   background: rgb(67, 91, 88);
 }
+
 .four {
   background: rgb(36, 164, 138);
 }
