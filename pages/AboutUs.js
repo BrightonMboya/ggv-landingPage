@@ -9,9 +9,9 @@ const AboutUs = () => {
       <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap" rel="stylesheet" />
     </Head>
     <div>
-      <h1 className="text-6xl font-bold pb-10">About Us</h1>
+      <h1 className="text-5xl font-bold pb-10 sm:text-6xl">About Us</h1>
     </div>
-    <p className="text-3xl leading-loose">Welcome to Global Green Visa, a gateway to environmental tourism. Working closely with national and International partners,
+    <p className="text-xl leading-loose sm:text-3xl sm:leading-loose">Welcome to Global Green Visa, a gateway to environmental tourism. Working closely with national and International partners,
       GGV assists governments to deliver the environmental and climate benefits promised in the Paris Accords.
     </p>
   </Wrapper>;
