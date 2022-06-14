@@ -1,0 +1,39 @@
+.global {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* border: 2px solid yellow; */
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.bgWrap {
+  /* position: fixed; */
+  /* height: 100vh; */
+  min-height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  background: center no-repeat;
+}
+
+/* * img {
+  max-width: 100%;
+} */
