@@ -31,7 +31,7 @@ const HomePage = () => {
           />
         </div>
         <div className="w-[70px] h-[70px] relative mt-6 ml-6 ">
-          <Image src="/logo.svg" layout="fill" objectFit="contain" alt="logo" />
+          <Image src="/logo.svg" layout="fill" objectFit="contain" />
         </div>
         <div className={styles.content}>
           <h2 className="text-white md:text-[4.8rem] text-center text-6xl font-semibold">
