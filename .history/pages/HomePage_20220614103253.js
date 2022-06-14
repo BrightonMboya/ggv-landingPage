@@ -19,7 +19,7 @@ const HomePage = () => {
         />
 
         <div className={styles.content}>
-          <h2 className="text-black lg:text-4xl text-center text-7xl font-semibold">
+          <h2 className="text-gray-500 lg:text-4xl text-center text-7xl font-semibold">
             Global Green Visa
           </h2>
           <p className="text-white lg:text-xl text-center text-2xl">

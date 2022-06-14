@@ -34,16 +34,20 @@ const Contactus = () => {
           objectFit="cover"
           quality={100}
         />
-        <div className="flex items-center justify-center text-white">
+        <div className="md:flex items-center justify-center text-white">
           <div className={styles.content}>
-            <h3 className="text-lg font-semibold md:text-xl text-center px-5">
-              If you believe in our mission, you can join us as a tourist and
-              also as an Investor
-            </h3>
-            <div className="max-w-xs md:max-w-3xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
+            <div className="mt-7 flex justify-center items-center">
+              <div className="mt-8">
+                <h3 className="text-lg font-semibold ml-[15vh] md:text-xl">
+                  If you believe in our mission, you can join us as a tourist
+                  and also as an Investor
+                </h3>
+              </div>
+            </div>
+            <div className="w-full max-w-xs ml-[5vh] mt-8">
               <form
                 onSubmit={submitHandler}
-                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2"
+                className="shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 border-gray border-2"
               >
                 <div className="mb-4">
                   <label className="text-lg">User Name</label>

@@ -40,7 +40,7 @@ const Contactus = () => {
               If you believe in our mission, you can join us as a tourist and
               also as an Investor
             </h3>
-            <div className="max-w-xs md:max-w-3xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
+            <div className="max-w-xs md:w-full ml-[5vh] mt-8 flex items-center justify-center">
               <form
                 onSubmit={submitHandler}
                 className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2"

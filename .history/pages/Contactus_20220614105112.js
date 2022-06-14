@@ -34,19 +34,25 @@ const Contactus = () => {
           objectFit="cover"
           quality={100}
         />
-        <div className="flex items-center justify-center text-white">
+        <div className="md:flex items-center justify-center text-white">
           <div className={styles.content}>
-            <h3 className="text-lg font-semibold md:text-xl text-center px-5">
-              If you believe in our mission, you can join us as a tourist and
-              also as an Investor
-            </h3>
-            <div className="max-w-xs md:max-w-3xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
+            <div className="mt-7 flex justify-center items-center">
+              <div className="mt-8">
+                <h3 className="text-lg font-semibold ml-[15vh] md:text-xl">
+                  Book a Demo
+                </h3>
+                <p className="text-center ml-5 mr-4 md:text-lg ml-0">
+                  Get in touch with us to book a demo or for media queries
+                </p>
+              </div>
+            </div>
+            <div className="w-full max-w-xs ml-[5vh] mt-8">
               <form
                 onSubmit={submitHandler}
-                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2"
+                className="shadow-md rounded px-8 pt-6 pb-8 mb-4"
               >
                 <div className="mb-4">
-                  <label className="text-lg">User Name</label>
+                  <label className="text-lg">UserName</label>
                   <input
                     type="text"
                     value={enteredName}
@@ -78,18 +84,18 @@ const Contactus = () => {
                 </div>
                 <div className="flex items-center mt-4">
                   <div>
-                    <input type="checkbox" className="mr-2 leading-tight" />
+                    <input type="checkbox" className="mr-2 leading-tigh" />
                     <span className="text-sm text-center">Tourist</span>
                   </div>
                   <div className="ml-5">
-                    <input type="checkbox" className="mr-2 leading-tight" />
+                    <input type="checkbox" className="mr-2 leading-tigh" />
                     <span className="text-sm text-center">Investor</span>
                   </div>
                 </div>
 
                 <div className="mt-5 ml-[8vh]">
-                  <button className="shadow bg-green focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded">
-                    Join
+                  <button className="shadow bg-skope-blue focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+                    Submit
                   </button>
                 </div>
               </form>

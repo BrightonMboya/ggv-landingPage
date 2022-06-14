@@ -7,14 +7,12 @@ module.exports = {
     extend: {
       colors: {
         black: "#000107",
-        slate: "#E3F1EF",
-        green: "#418D89",
-        gray: "#D9D9D9"
+        slate: "#E3F1EF"
       },
       fontFamily: {
         Syne: ["Syne", "sans-serif"]
       }
     }
   },
-  plugins: [require("@tailwindcss/forms")]
+  plugins: []
 };
