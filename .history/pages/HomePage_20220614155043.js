@@ -22,7 +22,7 @@ const HomePage = () => {
           <Image
             src="/home.jpg"
             layout="fill"
-            alt="Home"
+            alt="Home page"
             objectFit="cover"
             quality={100}
             style={{
