@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="h-[100vh] snap-y snap-mandatory">
+    <div className="">
       <Head>
         <title>Welcome to GGV</title>
         <meta
@@ -18,25 +18,23 @@ const HomePage = () => {
         </style>
       </Head>
       <div className={`${styles.bgWrap} ${styles.bg}`}>
-        <div className="bg-gradient from-black to to-blue">
-          <Image
-            src="/home.jpg"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            style={{
-              opacity: 0.7
-            }}
-          />
-        </div>
-        <div className="w-[70px] h-[70px] relative mt-6 ml-6 ">
+        <Image
+          src="/home.jpg"
+          layout="fill"
+          // width={900}
+          // height={800}
+          objectFit="cover"
+          quality={100}
+          style={{ opacity: 0.7 }}
+        />
+        <div className="w-[100px] h-[100px] relative mt-6 ml-6 ">
           <Image src="/logo.svg" layout="fill" objectFit="contain" />
         </div>
         <div className={styles.content}>
-          <h2 className="text-white md:text-[4.8rem] text-center text-6xl font-semibold">
+          <h2 className="text-black lg:text-4xl text-center text-7xl font-semibold">
             Global Green Visa
           </h2>
-          <p className="text-white font-medium lg:text-[2.5rem] text-center text-2xl leading-loose py-5 md:text-[2.8rem]">
+          <p className="text-white lg:text-xl text-center text-2xl">
             Welcome to Global Green Visa, a gateway to environmental tourism
           </p>
         </div>
@@ -45,3 +43,6 @@ const HomePage = () => {
   );
 };
 export default HomePage;
+
+// className="absolute lg:top-[50%] top-[6%]"
+// className="lg:justify-center lg:items-center sm:h-0 lg:flex lg:h-[100vh]"

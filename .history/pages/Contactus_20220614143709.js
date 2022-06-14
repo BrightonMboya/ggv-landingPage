@@ -38,22 +38,24 @@ const Contactus = () => {
         <Image
           src="/contact.jpg"
           layout="fill"
+          // width={900}
+          // height={800}
           objectFit="cover"
           quality={100}
         />
         <div className="flex items-center justify-center text-white">
           <div className={styles.content}>
-            <h3 className="text-xl font-semibold md:text-3xl text-center px-5 leading-loose">
+            <h3 className="text-lg font-semibold md:text-xl text-center px-5">
               If you believe in our mission, you can join us as a tourist and
               also as an Investor
             </h3>
             <div className="max-w-xs md:max-w-3xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
               <form
                 onSubmit={submitHandler}
-                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2 "
+                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2"
               >
                 <div className="mb-4">
-                  <label className="text-lg md:text-xl">User Name</label>
+                  <label className="text-lg">User Name</label>
                   <input
                     type="text"
                     value={enteredName}
@@ -63,7 +65,7 @@ const Contactus = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <label className="text-lg md:text-xl">Email</label>
+                  <label className="text-lg">Email</label>
                   <input
                     type="email"
                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -74,7 +76,7 @@ const Contactus = () => {
                 </div>
 
                 <div>
-                  <label className="text-lg md:text-xl">Password</label>
+                  <label className="text-lg">Password</label>
                   <input
                     type="text"
                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -86,20 +88,16 @@ const Contactus = () => {
                 <div className="flex items-center mt-4">
                   <div>
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-lg">
-                      Tourist
-                    </span>
+                    <span className="text-sm text-center">Tourist</span>
                   </div>
                   <div className="ml-5">
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-xl">
-                      Investor
-                    </span>
+                    <span className="text-sm text-center">Investor</span>
                   </div>
                 </div>
 
                 <div className="mt-5 ml-[8vh]">
-                  <button className="shadow bg-green focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded md:text-xl">
+                  <button className="shadow bg-green focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded">
                     Join
                   </button>
                 </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="h-[100vh] snap-y snap-mandatory">
+    <div className="">
       <Head>
         <title>Welcome to GGV</title>
         <meta
@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className={`${styles.bgWrap} ${styles.bg}`}>
         <div className="bg-gradient from-black to to-blue">
           <Image
-            src="/home.jpg"
+            src="/simba.jpg"
             layout="fill"
             objectFit="cover"
             quality={100}
@@ -33,10 +33,10 @@ const HomePage = () => {
           <Image src="/logo.svg" layout="fill" objectFit="contain" />
         </div>
         <div className={styles.content}>
-          <h2 className="text-white md:text-[4.8rem] text-center text-6xl font-semibold">
+          <h2 className="text-white md:text-7xl text-center text-6xl font-semibold">
             Global Green Visa
           </h2>
-          <p className="text-white font-medium lg:text-[2.5rem] text-center text-2xl leading-loose py-5 md:text-[2.8rem]">
+          <p className="text-white font-medium lg:text-xl text-center text-2xl leading-loose py-5 md:text-[2.5rem]">
             Welcome to Global Green Visa, a gateway to environmental tourism
           </p>
         </div>

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import styled from "styled-components";
 import Head from "next/head";
+// import home from "./assets/home.jpg";
 
 const AboutUs = () => {
   return (
@@ -20,19 +22,17 @@ const AboutUs = () => {
         <Image
           src="/about.jpg"
           layout="fill"
+          // width={900}
+          // height={800}
           objectFit="cover"
           quality={100}
-          style={{ opacity: 0.85 }}
         />
         <div className={styles.content}>
-          <h2 className="text-white lg:text-4xl text-center text-4xl font-semibold md:text-6xl">
-            About Us
+          <h2 className="text-white lg:text-4xl text-center text-2xl">
+            Global Green Visa
           </h2>
-          <p className="text-white lg:text-[1.8rem] lg:px-7 text-center text-xl leading-loose py-3 md:text-[2rem] md:leading-loose md:px-5">
-            Welcome to Global Green Visa, a gateway to environmental tourism.
-            Working closely with national and International partners, GGV
-            assists governments to deliver the environmental and climate
-            benefits promised in the Paris Accords.
+          <p className="text-white lg:text-xl text-center text-md">
+            Welcome to Global Green Visa, a gateway to environmental tourism
           </p>
         </div>
       </div>

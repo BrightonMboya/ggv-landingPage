@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className={`${styles.bgWrap} ${styles.bg}`}>
         <div className="bg-gradient from-black to to-blue">
           <Image
-            src="/home.jpg"
+            src="/simba.jpg"
             layout="fill"
             objectFit="cover"
             quality={100}

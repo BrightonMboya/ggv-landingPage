@@ -47,10 +47,10 @@ const Contactus = () => {
               If you believe in our mission, you can join us as a tourist and
               also as an Investor
             </h3>
-            <div className="max-w-xs md:max-w-3xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
+            <div className="max-w-xs md:max-w-5xl lg:max-w-full ml-[5vh] mt-8 flex items-center justify-center">
               <form
                 onSubmit={submitHandler}
-                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2 "
+                className="shadow-md rounded-lg px-7 pt-6 pb-8 mb-4 border-gray border-2"
               >
                 <div className="mb-4">
                   <label className="text-lg md:text-xl">User Name</label>
@@ -86,20 +86,16 @@ const Contactus = () => {
                 <div className="flex items-center mt-4">
                   <div>
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-lg">
-                      Tourist
-                    </span>
+                    <span className="text-sm text-center">Tourist</span>
                   </div>
                   <div className="ml-5">
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-xl">
-                      Investor
-                    </span>
+                    <span className="text-sm text-center">Investor</span>
                   </div>
                 </div>
 
                 <div className="mt-5 ml-[8vh]">
-                  <button className="shadow bg-green focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded md:text-xl">
+                  <button className="shadow bg-green focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded">
                     Join
                   </button>
                 </div>

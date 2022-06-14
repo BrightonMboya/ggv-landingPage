@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className={`${styles.bgWrap} ${styles.bg}`}>
         <div className="bg-gradient from-black to to-blue">
           <Image
-            src="/home.jpg"
+            src="/simba.jpg"
             layout="fill"
             objectFit="cover"
             quality={100}
@@ -36,7 +36,7 @@ const HomePage = () => {
           <h2 className="text-white md:text-[4.8rem] text-center text-6xl font-semibold">
             Global Green Visa
           </h2>
-          <p className="text-white font-medium lg:text-[2.5rem] text-center text-2xl leading-loose py-5 md:text-[2.8rem]">
+          <p className="text-white font-medium lg:text-5xl text-center text-2xl leading-loose py-5 md:text-[2.8rem]">
             Welcome to Global Green Visa, a gateway to environmental tourism
           </p>
         </div>

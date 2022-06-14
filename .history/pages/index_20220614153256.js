@@ -38,7 +38,7 @@ const index = () => {
           </section>
         </div>
       </div> */}
-      <div className={styles.container}>
+      <div>
         <HomePage />
         <AboutUs />
         <Contactus />

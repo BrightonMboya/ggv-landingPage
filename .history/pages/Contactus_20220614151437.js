@@ -86,13 +86,11 @@ const Contactus = () => {
                 <div className="flex items-center mt-4">
                   <div>
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-lg">
-                      Tourist
-                    </span>
+                    <span className="text-sm text-center">Tourist</span>
                   </div>
                   <div className="ml-5">
                     <input type="checkbox" className="mr-2 leading-tight" />
-                    <span className="text-sm text-center md:text-xl">
+                    <span className="text-sm text-center md:text-lg">
                       Investor
                     </span>
                   </div>

@@ -16,7 +16,7 @@
 .container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .bgWrap {
@@ -38,7 +38,7 @@
     rgba(71, 78, 117, 0.7),
     rgba(226, 27, 27, 0.7)
   );
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* height: 100vh; */
 }
 
